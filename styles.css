@@ -1,0 +1,119 @@
+/*    font-family: 'Bebas Neue', cursive;   letra de netflix
+        background-color: rgb(36, 36, 36);   color de fondp*/
+body{
+    background-color: rgb(36, 36, 36);
+}
+img{   
+    vertical-align: middle;
+}
+*{
+    margin:0
+}
+p{    
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+#titulo{
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(190, 8, 8);
+    font-size: 35px;
+}
+.genero{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.h2genero{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card{
+    margin: auto;
+}
+.imgcard{
+    width: 260px;
+    max-width: 260px;
+    height: 410px;
+}
+.card{
+    background-color: black;
+    width: 260px;
+    margin-top: 10px;
+}
+.bottomcard{
+    background-color: black;
+    height: 80px;
+}
+.infocard{
+    color: rgb(190, 8, 8);
+    padding: 10px;
+}
+/*aca empieza detail.html*/
+
+#titulopelicula{
+    display: flex;
+    justify-content: center;
+}
+.conteinerinfo{
+    display: grid;
+    grid-template-areas:    "foto foto"
+                            "categoria ejemplo1"
+                            "genero ejemplo2"
+                            "resumen ejemplo3"
+                            "duracion ejemplo4"
+                            "reparto ejemplo5";      
+    grid-template-columns: 100px 2fr;
+}
+#imgdetail{
+    width: 300px; 
+    grid-area: foto;
+    margin: 10px;
+}
+.primercolumna{
+    color: rgb(190, 8, 8);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.segundacolumna{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+#categoria{
+    grid-area: categoria;
+}
+#genero{
+    grid-area: genero;
+}
+#resumen{
+    grid-area: resumen;
+}
+#duracion{
+    grid-area: duracion;
+}
+#reparto{
+    grid-area: reparto;
+}
+#ejemplo1{
+    grid-area: ejemplo1;
+}
+#ejemplo2{
+    grid-area: ejemplo2;
+}
+#ejemplo3{
+    grid-area: ejemplo3;
+}
+#ejemplo4{
+    grid-area: ejemplo4;
+}
+#ejemplo5{
+    grid-area: ejemplo5;
+}

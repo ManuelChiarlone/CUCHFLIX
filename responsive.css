@@ -1,0 +1,27 @@
+@media screen and (min-width:769px) {
+    #titulo{
+        font-size: 70px;
+    }
+    .conteinercard1{
+        display: flex;
+    }
+    .conteinercard2{
+        display: flex;
+    }
+    .conteinerinfo{
+        display: grid;
+        grid-template-areas:    "foto categoria ejemplo1"
+                                "foto genero ejemplo2"
+                                "foto resumen ejemplo3"
+                                "foto duracion ejemplo4"
+                                "foto reparto ejemplo5";
+        grid-template-columns: 500px 100px;
+    }
+    #imgdetail{
+        width: 400px;
+        margin-left: 50px;
+    }
+    .segundacolumna{
+        margin-right: 30px;
+    }
+}
